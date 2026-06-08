@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Cloud, User, Mail, Lock, ArrowRight } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://cloudvault-czni.onrender.com/api/auth';
 
 function Signup({ setToken }) {
   const [form, setForm] = useState({ name: '', email: '', password: '' });

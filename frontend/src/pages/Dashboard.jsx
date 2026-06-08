@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Cloud, Upload, Download, Trash2, LogOut, File, Image as ImageIcon, FileText, FileVideo, Music, Archive, Loader2, FolderOpen, Search, ArrowUpDown, Eye, X, Share2, Check } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/files';
+const API_URL = 'https://cloudvault-czni.onrender.com/api/files';
 
 function Dashboard({ setToken }) {
   const [files, setFiles] = useState([]);
